@@ -6,7 +6,6 @@ type User = {
   pin: string
 }
 
-// In a real app, you'd use a database. For simplicity, we're using an in-memory store.
 let users: User[] = []
 
 export async function POST(request: Request) {
