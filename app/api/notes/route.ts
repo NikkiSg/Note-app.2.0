@@ -7,7 +7,6 @@ type Note = {
   content: string
 }
 
-// In a real app, you'd use a database. For simplicity, we're using an in-memory store.
 let notes: Record<string, Note[]> = {}
 
 export async function GET() {
